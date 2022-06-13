@@ -19,7 +19,7 @@ Get the 5 lastest day's values
 
 ![predict_gif](./imgs/predict_gif.gif)
 
-**(✳)Notes-machine_learning**
+**✳ Notes-machine_learning**
 
 ||description|default value|
 |---|---|---|
@@ -30,7 +30,7 @@ Get the 5 lastest day's values
 |`input_dim`| your input dimension|1|
 |`output_dim`| your output dimension|1|
 
-**(✳)Notes-application**
+**✳ Notes-application**
 
 - run this app: `python app.py`
 
