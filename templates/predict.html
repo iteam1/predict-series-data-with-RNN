@@ -1,0 +1,27 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<!-- meta tags -->
+		<meta charset = 'utf-8'>
+		<meta name  = 'viewport' content = 'width=device-width,initial-scale=1'>
+		<title>predict page</title>
+	</head>
+	<body>
+		<h1>Predict Page</h1>
+
+		<form action = "{{url_for('predict')}}" method = 'post'>
+			<p>value of 5 days ago</p>
+			<input type="number" step = "0.01" name="input_1">
+			<p>value of 4 days ago</p>
+			<input type="number" step = "0.01" name="input_2">
+			<p>value of 3 days ago</p>
+			<input type="number" step = "0.01" name="input_3">
+			<p>value of 2 days ago</p>
+			<input type="number" step = "0.01" name="input_4">
+			<p>value of 1 days ago</p>
+			<input type="number" step = "0.01" name="input_5">
+			<p>Submit your input</p>
+			<input type="submit">
+		</form>
+	</body>
+</html>
