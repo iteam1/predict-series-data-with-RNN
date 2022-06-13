@@ -1,5 +1,7 @@
-<img src="https://img.shields.io/badge/license-MIT-green" />
+<p align="center">
+<img src="https://img.shields.io/badge/license-MIT-green" /> 
 <img src="https://img.shields.io/badge/version-v0.1-lightgrey" />
+</p>
 
 ![banner](./imgs/banner.gif)
 
@@ -33,6 +35,12 @@ Get the 5 lastest day's values
 - run this app: `python app.py`
 
 - check api docs: `http://127.0.0.1:5000/apidocs/`
+
+### release-note
+|version|description|
+|---|---|
+|v0.1|. building model ☑  "\n" . predict function ☑ "\n" . flasgger-apidocs ❌ . train your own model ❌|
+|v0.2|. building model ☑  "\n" . predict function ☑ "\n" . flasgger-apidocs ❌ . train your own model ❌|
 
 ### tools
 
