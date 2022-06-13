@@ -3,3 +3,6 @@
 
 # virtual enviroment
 env
+
+# interpreter
+__pycache__
