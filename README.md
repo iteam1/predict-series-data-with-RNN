@@ -12,7 +12,7 @@ Application functional hierarchy diagram
 
 Get the 5 lastest day's values
 
-![newest_input](./imgs/newest_input.png)
+![predict_gif](./imgs/predict_gif.gif)
 
 **(✳)Notes-machine_learning**
 
@@ -41,6 +41,8 @@ Get the 5 lastest day's values
 |4|[pixlr](https://pixlr.com/vn/x/)|design banner|
 |5|[github](https://github.com/)|cloud platform for manager your project|
 |6|[git](https://git-scm.com/)|control your repository|
+|7|[ezgif](https://ezgif.com/maker)|ezgif maker|
+|8|[symbolcopy](https://www.symbolcopy.com/)|get sympol character|
 
 ### references
 
