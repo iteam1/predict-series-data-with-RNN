@@ -1,3 +1,6 @@
+<img src="https://img.shields.io/badge/license-MIT-green" />
+<img src="https://img.shields.io/badge/version-v0.1-lightgrey" />
+
 ![banner](./imgs/banner.gif)
 
 ### description
@@ -43,6 +46,7 @@ Get the 5 lastest day's values
 |6|[git](https://git-scm.com/)|control your repository|
 |7|[ezgif](https://ezgif.com/maker)|ezgif maker|
 |8|[symbolcopy](https://www.symbolcopy.com/)|get sympol character|
+|9|[shields](https://shields.io/)|create your own git badges|
 
 ### references
 
