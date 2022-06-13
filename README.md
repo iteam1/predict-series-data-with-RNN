@@ -1,5 +1,12 @@
 # predict-series-data-with-RNN
+
 application to predict series data by RNNs model
+
+![models](./imgs/rnns.png)
+
+Microsoft-stock-prediction
+
+![prediction](./imgs/MSFT_ppredict_full_dataset.png)
 
 # references
 
