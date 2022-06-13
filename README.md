@@ -10,7 +10,7 @@ Microsoft-stock-prediction
 
 **Notes**
 
-||||
+||description|default value|
 |---|---|---|
 |input dataset `X`| input of model `(number_of_samples,seq_len,input_dim)`|(545,5,1)|
 |label dataset `Y`| label of these input `(number_of_samples,output_dim)`|(545,1)|
