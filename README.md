@@ -8,7 +8,7 @@ Application functional hierarchy diagram
 
 ![app_func_diagram](./imgs/app_func_diagram.png)
 
-**Notes-machine_learning**
+**(✳)Notes-machine_learning**
 
 ||description|default value|
 |---|---|---|
@@ -19,7 +19,7 @@ Application functional hierarchy diagram
 |`input_dim`| your input dimension|1|
 |`output_dim`| your output dimension|1|
 
-**Notes-application**
+**(✳)Notes-application**
 
 - run this app: `python app.py`
 
