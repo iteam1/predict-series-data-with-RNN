@@ -2,11 +2,17 @@
 
 ### description
 
-Microsoft-stock-prediction. Apply the RNN models to predict series data, buidling a web-application to predict input data and you can create your own model by training your custom dataset .In this application the values in previous time become the input for next prediction.
+Microsoft-stock-prediction. Apply the deep learning RNN models to predict series data, buidling a web-application to predict input data and you can also create your own model for predict your custom dataset .In this application the values in previous time become the input for next prediction.
+
+![msft_yahoo](./imgs/msft_yahoo.png)
 
 Application functional hierarchy diagram
 
 ![app_func_diagram](./imgs/app_func_diagram.png)
+
+Get the 5 lastest day's values
+
+![newest_input](./imgs/newest_input.png)
 
 **(✳)Notes-machine_learning**
 
