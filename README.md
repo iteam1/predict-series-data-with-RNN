@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
 <img src="https://img.shields.io/badge/license-MIT-green" /> 
 <img src="https://img.shields.io/badge/version-v0.1-lightgrey" />
 </p>
@@ -39,8 +39,8 @@ Get the 5 lastest day's values
 ### release-note
 |version|description|
 |---|---|
-|v0.1|. building model ☑  "\n" . predict function ☑ "\n" . flasgger-apidocs ❌ . train your own model ❌|
-|v0.2|. building model ☑  "\n" . predict function ☑ "\n" . flasgger-apidocs ❌ . train your own model ❌|
+|v0.1|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌ <br> . train your own model ❌|
+|v0.2|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌ <br> . train your own model ❌|
 
 ### tools
 
