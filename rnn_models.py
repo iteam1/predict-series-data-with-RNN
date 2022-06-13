@@ -420,8 +420,8 @@ class LSTM():
         loss = 0.0
         m = Y.shape[0]
         # init previous state
-        h_prev = np.zeros((hidden_dim,1))
-        C_prev = np.zeros((hidden_dim,1))
+        h_prev = np.zeros((self.hidden_dim,1))
+        C_prev = np.zeros((self.hidden_dim,1))
         for i in range(m):
             x,y = X[i],Y[i]
             h_prev,C_prev,f_t,i_t,o_t,C_til,C_t,h_t,y_hat = self.forward_pass(h_prev,C_prev,x)
@@ -432,8 +432,8 @@ class LSTM():
     def predict(self,X):
         preds = []
         m = X.shape[0] # number of samples
-        h_prev = np.zeros((hidden_dim,1))
-        C_prev = np.zeros((hidden_dim,1))
+        h_prev = np.zeros((self.hidden_dim,1))
+        C_prev = np.zeros((self.hidden_dim,1))
         for i in range(m):
             x = X[i]
             h_prev,C_prev,f_t,i_t,o_t,C_til,C_t,h_t,y_hat = self.forward_pass(h_prev,C_prev,x)
@@ -496,8 +496,8 @@ class LSTM():
     
             # FORWARD PASS
             # init previous state
-            h_prev = np.zeros((hidden_dim,1))
-            C_prev = np.zeros((hidden_dim,1))
+            h_prev = np.zeros((self.hidden_dim,1))
+            C_prev = np.zeros((self.hidden_dim,1))
 
             for t in range(Y.shape[0]):
                 x,y = X[t],Y[t]
@@ -528,8 +528,8 @@ class LSTM():
             dLdW_f = np.zeros(self.W_f.shape)
             dLdb_f = np.zeros(self.b_f.shape)
 
-            dLdC_next = np.zeros((hidden_dim,1))
-            dLdh_next = np.zeros((hidden_dim,1))
+            dLdC_next = np.zeros((self.hidden_dim,1))
+            dLdh_next = np.zeros((self.hidden_dim,1))
             
             for t in range(Y.shape[0]):
                 # x,y
@@ -553,15 +553,15 @@ class LSTM():
                 dLdb_f += dLdb_f_t
 
             # gradient descent
-            self.V -= learning_rate * dLdV
-            self.b_y -= learning_rate * dLdb_y
-            self.W_c -= learning_rate * dLdW_c
-            self.b_c -= learning_rate * dLdb_c
-            self.W_o -= learning_rate * dLdW_o
-            self.b_o -= learning_rate * dLdb_o
-            self.W_i -= learning_rate * dLdW_i
-            self.b_i -= learning_rate * dLdb_i
-            self.W_f -= learning_rate * dLdW_f
-            self.b_f -= learning_rate * dLdb_f
+            self.V += learning_rate * dLdV
+            self.b_y += learning_rate * dLdb_y
+            self.W_c += learning_rate * dLdW_c
+            self.b_c += learning_rate * dLdb_c
+            self.W_o += learning_rate * dLdW_o
+            self.b_o += learning_rate * dLdb_o
+            self.W_i += learning_rate * dLdW_i
+            self.b_i += learning_rate * dLdb_i
+            self.W_f += learning_rate * dLdW_f
+            self.b_f += learning_rate * dLdb_f
         
         return losses
