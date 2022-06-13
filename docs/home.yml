@@ -1,0 +1,10 @@
+
+Home Page
+This specification is taken from a external YAML file
+---
+parameters:
+  - name: Home Page
+    in: '/'
+responses:
+  200:
+    description: Content desciption about application

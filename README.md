@@ -21,6 +21,10 @@ Application functional hierarchy diagram
 
 **Notes-application**
 
+- run this app: `python app.py`
+
+- check api docs: `http://127.0.0.1:5000/apidocs/`
+
 ### tools
 
 |No|tool|descript|
@@ -47,4 +51,3 @@ Application functional hierarchy diagram
 [Upload CSV File with SQLite Database Using Flask | Tamil](https://www.youtube.com/watch?v=YNzRBjW_HR4&t=215s)
 
 [Predicting the Stock Market with Machine Learning (Part 1) - Data Preparation](https://www.youtube.com/watch?v=Hf-c4Y3OZnk&list=PLGxQQ15B6f3u3rNGzaBqvTd8g7PGTd2jO&index=1)
-
