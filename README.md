@@ -8,7 +8,7 @@ Apply these RNN models to predict series data, buidling a web-application to pre
 
 Application functional hierarchy diagram
 
-![app_func_diagram](app_func_diagram.png)
+![app_func_diagram](./imgs/app_func_diagram.png)
 
 **Notes-machine_learning**
 
