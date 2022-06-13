@@ -25,14 +25,14 @@ Application functional hierarchy diagram
 
 ### tools
 
-|tool|descript|
-|---|---|
-|[sublime-text](https://www.sublimetext.com/)|code editor|
-|[jupyter-notebook](https://jupyter.org/)|build machine learning model|
-|[diagrameditor](https://www.diagrameditor.com/)|drawing UML|
-|[pixlr](https://pixlr.com/vn/x/)|design banner|
-|[github](https://github.com/)|cloud platform for manager your project|
-|[git](https://git-scm.com/)|control your repository|
+|No|tool|descript|
+|---|---|---|
+|1|[sublime-text](https://www.sublimetext.com/)|code editor|
+|2|[jupyter-notebook](https://jupyter.org/)|build machine learning model|
+|3|[diagrameditor](https://www.diagrameditor.com/)|drawing UML|
+|4|[pixlr](https://pixlr.com/vn/x/)|design banner|
+|5|[github](https://github.com/)|cloud platform for manager your project|
+|6|[git](https://git-scm.com/)|control your repository|
 
 ### references
 
