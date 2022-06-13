@@ -39,8 +39,8 @@ Get the 5 lastest day's values
 ### release-note
 |version|description|
 |---|---|
-|v0.1|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌ <br> . train your own model ❌|
-|v0.2|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌ <br> . train your own model ❌|
+|v0.1|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌|
+|v0.2|. train your own model ❌|
 
 ### tools
 
