@@ -1,6 +1,6 @@
-# predict-series-data-with-RNN
+### predict-series-data-with-RNN
 
-application to predict series data by RNNs model
+Apply these RNN models to predict series data, In this application the values in previous time become the input for next prediction.
 
 ![models](./imgs/rnns.png)
 
@@ -8,7 +8,18 @@ Microsoft-stock-prediction
 
 ![prediction](./imgs/MSFT_ppredict_full_dataset.png)
 
-# references
+**Notes**
+
+||||
+|---|---|---|
+|input dataset `X`| input of model `(number_of_samples,seq_len,input_dim)`|(545,5,1)|
+|label dataset `Y`| label of these input `(number_of_samples,output_dim)`|(545,1)|
+|`number_of_samples`| how many sample in your dataset ()|545|
+|`seq_len`| how many previous samples you want to look back|5|
+|`input_dim`| your input dimension|1|
+|`output_dim`| your output dimension|1|
+
+### references
 
 [Stock Price Prediction & Forecasting with LSTM Neural Networks in Python](https://www.youtube.com/watch?v=CbTU92pbDKw&t=492s)
 
