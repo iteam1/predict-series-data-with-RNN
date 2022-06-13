@@ -23,6 +23,17 @@ Application functional hierarchy diagram
 
 **Notes-application**
 
+### tools
+
+|tool|descript|
+|---|---|
+|[sublime-text](https://www.sublimetext.com/)|code editor|
+|[jupyter-notebook](https://jupyter.org/)|build machine learning model|
+|[diagrameditor](https://www.diagrameditor.com/)|drawing UML|
+|[pixlr](https://pixlr.com/vn/x/)|design banner|
+|[github](https://github.com/)|cloud platform for manager your project|
+|[git](https://git-scm.com/)|control your repository|
+
 ### references
 
 [Stock Price Prediction & Forecasting with LSTM Neural Networks in Python](https://www.youtube.com/watch?v=CbTU92pbDKw&t=492s)

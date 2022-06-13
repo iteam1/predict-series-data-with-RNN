@@ -339,7 +339,7 @@ class GRU():
         
         return dU_u,dW_u,db_u,dU_r,dW_r,db_r,dU_h,dW_h,db_h,dV,db_y
     
-    def train(self,X,Y,epochs,learning_rate,min_val,max_val,predict = True,verbose = True):
+    def train(self,X,Y,epochs,learning_rate,min_val,max_val,verbose = True):
         # storge loss
         losses = []
         for epoch in range(epochs):
@@ -368,14 +368,6 @@ class GRU():
                 self.b_h += db_h*learning_rate
                 self.V += dV*learning_rate
                 self.b_y += db_y*learning_rate
-                
-            if predict:
-                preds = self.predict(X)
-                plt.plot(preds,label = 'pred')
-                plt.plot(Y,label = 'ground-truth')
-                plt.title(title)
-                plt.legend()
-                plt.show()
                     
         return losses
 
