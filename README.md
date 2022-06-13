@@ -2,9 +2,7 @@
 
 ### predict-series-data-with-RNN
 
-Microsoft-stock-prediction
-
-Apply these RNN models to predict series data, buidling a web-application to predict input data and you can create your own model by training your custom dataset .In this application the values in previous time become the input for next prediction.
+Microsoft-stock-prediction. Apply the RNN models to predict series data, buidling a web-application to predict input data and you can create your own model by training your custom dataset .In this application the values in previous time become the input for next prediction.
 
 Application functional hierarchy diagram
 
