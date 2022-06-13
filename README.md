@@ -1,14 +1,16 @@
 ### predict-series-data-with-RNN
 
-Apply these RNN models to predict series data, In this application the values in previous time become the input for next prediction.
-
-![models](./imgs/rnns.png)
-
 Microsoft-stock-prediction
 
 ![prediction](./imgs/MSFT_ppredict_full_dataset.png)
 
-**Notes**
+Apply these RNN models to predict series data, buidling a web-application to predict input data and you can create your own model by training your custom dataset .In this application the values in previous time become the input for next prediction.
+
+Application functional hierarchy diagram
+
+![app_func_diagram](app_func_diagram.png)
+
+**Notes-machine_learning**
 
 ||description|default value|
 |---|---|---|
@@ -18,6 +20,8 @@ Microsoft-stock-prediction
 |`seq_len`| how many previous samples you want to look back|5|
 |`input_dim`| your input dimension|1|
 |`output_dim`| your output dimension|1|
+
+**Notes-application**
 
 ### references
 
