@@ -37,9 +37,9 @@ Get the 5 lastest day's values
 - check api docs: `http://127.0.0.1:5000/apidocs/`
 
 ### release-note
-|version|description|
-|---|---|
-|v0.1|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌|
+|version|description|date|
+|---|---|---|
+|v0.1|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌|14|
 |v0.2|. train your own model ❌|
 
 ### tools

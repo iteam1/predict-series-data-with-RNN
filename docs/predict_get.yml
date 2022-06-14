@@ -1,0 +1,9 @@
+Predict Page
+This specification is taken from ./docs/predict_get.yml external YAML file
+---
+parameters:
+  - name: Predict Page
+    in: '/predict'
+responses:
+  200:
+    description: GUI input form

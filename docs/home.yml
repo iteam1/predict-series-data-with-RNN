@@ -1,6 +1,5 @@
-
 Home Page
-This specification is taken from a external YAML file
+This specification is taken from ./docs/home.yml external YAML file
 ---
 parameters:
   - name: Home Page
