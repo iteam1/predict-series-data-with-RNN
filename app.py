@@ -36,6 +36,8 @@ def home():
 
 # predict
 @app.route('/predict',methods=  ['GET','POST'])
+@swag_from('./docs/predict_get.yml',methods = ['GET'])
+@swag_from('./docs/predict_post.yml',methods = ['POST'])
 def predict():
 	if request.method == 'POST':
 		# get form info

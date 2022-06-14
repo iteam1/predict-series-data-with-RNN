@@ -2,8 +2,36 @@ Predict Page
 This specification is taken from ./docs/predict_get.yml external YAML file
 ---
 parameters:
-  - name: Predict Page
-    in: '/predict'
+  - name: input_1
+  in: formData
+  type: number
+  required: True
+  description: value in 5 days ago
+
+  - name: input_2
+  in: formData
+  type: number
+  required: True
+  description: value in 4 days ago
+
+  - name: input_3
+  in: formData
+  type: number
+  required: True
+  description: value in 3 days ago
+
+  - name: input_4
+  in: formData
+  type: number
+  required: True
+  description: value in 2 days ago
+
+  - name: input_5
+  in: formData
+  type: number
+  required: True
+  description: value in 1 days ago
+
 responses:
   200:
     description: GUI input form
