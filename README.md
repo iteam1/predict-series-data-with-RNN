@@ -19,7 +19,7 @@ Get the 5 lastest day's values
 
 ![predict_gif](./imgs/predict_gif.gif)
 
-**(✳)Notes-machine_learning**
+**✳ Notes-machine_learning**
 
 ||description|default value|
 |---|---|---|
@@ -30,7 +30,7 @@ Get the 5 lastest day's values
 |`input_dim`| your input dimension|1|
 |`output_dim`| your output dimension|1|
 
-**(✳)Notes-application**
+**✳ Notes-application**
 
 - run this app: `python app.py`
 
@@ -39,8 +39,8 @@ Get the 5 lastest day's values
 ### release-note
 |version|description|
 |---|---|
-|v0.1|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌ <br> . train your own model ❌|
-|v0.2|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌ <br> . train your own model ❌|
+|v0.1|. building model ☑  <br> . predict function ☑ <br> . flasgger-apidocs ❌|
+|v0.2|. train your own model ❌|
 
 ### tools
 
