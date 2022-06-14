@@ -60,7 +60,7 @@ Get the 5 lastest day's values
 |2|[jupyter-notebook](https://jupyter.org/)|build machine learning model|
 |3|[diagrameditor](https://www.diagrameditor.com/)|drawing UML|
 |4|[pixlr](https://pixlr.com/vn/x/)|design banner|
-|5|[github](https://github.com/)|cloud platform for manager your project|
+|5|[github](https://github.com/)|cloud platform for manage your project|
 |6|[git](https://git-scm.com/)|control your repository|
 |7|[ezgif](https://ezgif.com/maker)|ezgif maker|
 |8|[symbolcopy](https://www.symbolcopy.com/)|get sympol character|
