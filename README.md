@@ -11,13 +11,23 @@ Microsoft-stock-prediction. Apply the deep learning RNN models to predict series
 
 ![msft_yahoo](./imgs/msft_yahoo.PNG)
 
-Application functional hierarchy diagram
+- Application functional hierarchy diagram
 
 ![app_func_diagram](./imgs/app_func_diagram.png)
+
+- Appication apidocs
+
+![apidocs](./imgs/swagger_apidocs.PNG)
+
+- You can also test your `request` with swagger-flassger apidocs `GUI`
+
+![post_form](./imgs/post_form.png)
 
 Get the 5 lastest day's values
 
 ![predict_gif](./imgs/predict_gif.gif)
+
+
 
 **✳ Notes-machine_learning**
 
