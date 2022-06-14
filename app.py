@@ -49,7 +49,7 @@ def predict():
 		x = x.reshape(1,x.shape[0],1)
 		# predict the value
 		y =model.predict(x)
-		return f"<h1>your prediction: {np.float(y)} $</h1>",201
+		return f"<h1>your prediction: {round(float(y),2)} $</h1>",201
 
 	return render_template('predict.html'),200
 
