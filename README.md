@@ -23,11 +23,9 @@ Microsoft-stock-prediction. Apply the deep learning RNN models to predict series
 
 ![post_form](./imgs/post_form.png)
 
-Get the 5 lastest day's values
+- Get the 5 lastest day's values
 
 ![predict_gif](./imgs/predict_gif.gif)
-
-
 
 **✳ Notes-machine_learning**
 
